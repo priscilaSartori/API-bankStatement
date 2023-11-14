@@ -11,6 +11,15 @@ public class ExtractController : ControllerBase {
     return Ok(extracts);
   }
 
+  [HttpGet("{id}")]
+  public ActionResult GetExtract(int id){
+    Extract extract = extracts.Find(x => x.Id == id);
+    if(extract == null) {
+      return NotFound();
+    }
+    return Ok(extract);
+  }
+
   [HttpPost]
   public ActionResult PostExtract([FromBody]Extract extract){
     extracts.Add(extract);
