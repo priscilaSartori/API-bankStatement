@@ -6,8 +6,14 @@ using bankStatement;
 public class ExtractController : ControllerBase {
   private static List<Extract> extracts = new List<Extract>();
 
-[HttpGet]
+  [HttpGet]
   public ActionResult GetExtract(){
     return Ok(extracts);
+  }
+
+  [HttpPost]
+  public ActionResult PostExtract([FromBody]Extract extract){
+    extracts.Add(extract);
+    return Created("", extract);
   }
 }
