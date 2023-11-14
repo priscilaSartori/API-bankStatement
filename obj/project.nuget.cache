@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "NXVLiYQ4cgP2vjtLcp1xnyHfr3+Qy60+guAJi8W+eQCUgdFqYMifiaxTHEVIGuRY6RHqg1bIfjZ5r2CxuYC7OQ==",
+  "success": true,
+  "projectFilePath": "/home/priscia/Documentos/api-bank-statement/api-bank-statement.csproj",
+  "expectedPackageFiles": [
+    "/home/priscia/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/priscia/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/priscia/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/home/priscia/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/home/priscia/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/home/priscia/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

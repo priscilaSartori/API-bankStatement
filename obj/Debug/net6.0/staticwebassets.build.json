@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "4mqaN2scHHi4J8T5japAA7O0HFoCfpTPvOZUae59DX4=",
+  "Source": "api-bank-statement",
+  "BasePath": "_content/api-bank-statement",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
