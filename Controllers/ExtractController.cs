@@ -33,6 +33,22 @@ public class ExtractController : ControllerBase {
       return NotFound();
     }
     extracts.Remove(extract);
-    return Ok(extracts);
+    // return Ok(extracts);
+    return NoContent();
+  }
+
+  [HttpPut("{id}")]
+  public ActionResult UpdateExtract(int id, [FromBody] Extract extract){
+    Extract existingExtract = extracts.Find(x => x.Id == id);
+    if(existingExtract == null) {
+      return NotFound();
+    }
+
+    existingExtract.Description = extract.Description;
+    existingExtract.Date = extract.Date;
+    existingExtract.Value = extract.Value;
+    existingExtract.Loose = extract.Loose;
+    existingExtract.Status = extract.Status;
+    return Ok(existingExtract);
   }
 }
