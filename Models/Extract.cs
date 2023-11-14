@@ -1,5 +1,5 @@
-namespace BankStatement {
-  public class Extrato {
+namespace bankStatement {
+  public class Extract {
     public int Id {get; set;}
     public string? Description {get; set;}
     public string? Date {get; set;}
