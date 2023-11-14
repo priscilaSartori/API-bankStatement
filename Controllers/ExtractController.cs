@@ -25,4 +25,14 @@ public class ExtractController : ControllerBase {
     extracts.Add(extract);
     return Created("", extract);
   }
+
+  [HttpDelete("{id}")]
+  public ActionResult DeleteExtract(int id){
+    Extract extract = extracts.Find(x => x.Id == id);
+    if(extract == null) {
+      return NotFound();
+    }
+    extracts.Remove(extract);
+    return Ok(extracts);
+  }
 }
