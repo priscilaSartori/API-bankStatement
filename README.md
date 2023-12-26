@@ -23,3 +23,25 @@ Tecnologias Utilizadas
     <img width="916" alt="project-API-bankStatement-PUT" src="https://github.com/priscilaSartori/API-bankStatement/blob/main/PUT.png?raw=true">  
     <img width="916" alt="project-API-bankStatement-GETALL" src="https://github.com/priscilaSartori/API-bankStatement/blob/main/PUT-GETALL.png?raw=true">
 </p>
+
+# Começando 🚀
+
+Para clonar e executar este aplicativo, você precisará do Git e Node.js instalados em seu computador.
+
+```bash
+# Clone este repositório
+$ git clone git@github.com:priscilaSartori/API-bankStatement.git
+
+# Acesse a pasta do projeto
+$ cd API-bankStatement
+
+# Execute o projeto 📎 
+$ dotnet run
+
+# Acesse o API Client de sua preferência.
+URL =  https://localhost:7157/
+POST = {{URL}}api/Extract/
+GETALL = {{URL}}api/Extract
+GET = {{URL}}api/Extract/:id
+DELETE = {{URL}}api/Extract/:id
+PUT = {{URL}}api/Extract/:id
